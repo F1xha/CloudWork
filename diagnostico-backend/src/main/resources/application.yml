@@ -1,0 +1,26 @@
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: never
+spring:
+  application:
+    name: diagnostico
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://login.microsoftonline.com/${AZURE_TENANT_ID:9cf112db-fbb5-4a2c-9f50-b6b028a24f5c}/v2.0
+app:
+  security:
+    audience: ${AZURE_BACKEND_CLIENT_ID:29fad832-f772-4917-ac2a-c98db303d04c}
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:4200}

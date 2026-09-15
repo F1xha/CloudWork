@@ -1,0 +1,17 @@
+target/
+node_modules/
+dist/
+.angular/
+*.class
+*.jar
+.idea/
+.vscode/
+.env
+.env.*
+!*.example
+*.env
+*.pem
+*.key
+*.log
+/data/
+/evidencias-privadas/
