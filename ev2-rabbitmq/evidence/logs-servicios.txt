@@ -1,0 +1,107 @@
+﻿notificaciones-1  | 
+notificaciones-1  |   .   ____          _            __ _ _
+notificaciones-1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+notificaciones-1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+notificaciones-1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+notificaciones-1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+notificaciones-1  |  =========|_|==============|___/=/_/_/_/
+categorias-1      | 
+notificaciones-1  | 
+auditoria-1       | 
+auditoria-1       |   .   ____          _            __ _ _
+auditoria-1       |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+auditoria-1       | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+notificaciones-1  |  :: Spring Boot ::                (v3.5.5)
+notificaciones-1  | 
+notificaciones-1  | 2026-10-09T18:13:02.857Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Starting Application v1.0.0 using Java 17.0.20.1 with PID 1 (/app/app.jar started by root in /app)
+notificaciones-1  | 2026-10-09T18:13:02.860Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : The following 1 profile is active: "notificaciones"
+notificaciones-1  | 2026-10-09T18:13:04.514Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+categorias-1      |   .   ____          _            __ _ _
+categorias-1      |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+categorias-1      | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+categorias-1      |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+categorias-1      |   '  |____| .__|_| |_|_| |_\__, | / / / /
+categorias-1      |  =========|_|==============|___/=/_/_/_/
+categorias-1      | 
+categorias-1      |  :: Spring Boot ::                (v3.5.5)
+categorias-1      | 
+categorias-1      | 2026-10-09T18:12:56.431Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Starting Application v1.0.0 using Java 17.0.20.1 with PID 1 (/app/app.jar started by root in /app)
+categorias-1      | 2026-10-09T18:12:56.435Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : The following 1 profile is active: "categorias"
+categorias-1      | 2026-10-09T18:12:57.605Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+categorias-1      | 2026-10-09T18:12:57.620Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+categorias-1      | 2026-10-09T18:12:57.621Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+categorias-1      | 2026-10-09T18:12:57.656Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+categorias-1      | 2026-10-09T18:12:57.658Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1168 ms
+categorias-1      | 2026-10-09T18:12:58.408Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+categorias-1      | 2026-10-09T18:12:58.427Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Started Application in 2.623 seconds (process running for 3.119)
+categorias-1      | 2026-10-09T18:13:43.193Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+notificaciones-1  | 2026-10-09T18:13:04.526Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+categorias-1      | 2026-10-09T18:13:43.193Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+categorias-1      | 2026-10-09T18:13:43.194Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+incidencias-1     | 
+notificaciones-1  | 2026-10-09T18:13:04.526Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+notificaciones-1  | 2026-10-09T18:13:04.563Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+notificaciones-1  | 2026-10-09T18:13:04.564Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1642 ms
+notificaciones-1  | 2026-10-09T18:13:04.719Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+auditoria-1       |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+incidencias-1     |   .   ____          _            __ _ _
+incidencias-1     |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+auditoria-1       |   '  |____| .__|_| |_|_| |_\__, | / / / /
+auditoria-1       |  =========|_|==============|___/=/_/_/_/
+notificaciones-1  | 2026-10-09T18:13:05.105Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/helpdesk user=SA
+auditoria-1       | 
+notificaciones-1  | 2026-10-09T18:13:05.117Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+incidencias-1     | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+incidencias-1     |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+incidencias-1     |   '  |____| .__|_| |_|_| |_\__, | / / / /
+auditoria-1       |  :: Spring Boot ::                (v3.5.5)
+auditoria-1       | 
+incidencias-1     |  =========|_|==============|___/=/_/_/_/
+incidencias-1     | 
+auditoria-1       | 2026-10-09T18:13:03.252Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Starting Application v1.0.0 using Java 17.0.20.1 with PID 1 (/app/app.jar started by root in /app)
+auditoria-1       | 2026-10-09T18:13:03.256Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : The following 1 profile is active: "auditoria"
+incidencias-1     |  :: Spring Boot ::                (v3.5.5)
+incidencias-1     | 
+incidencias-1     | 2026-10-09T18:13:03.502Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Starting Application v1.0.0 using Java 17.0.20.1 with PID 1 (/app/app.jar started by root in /app)
+auditoria-1       | 2026-10-09T18:13:04.915Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+incidencias-1     | 2026-10-09T18:13:03.506Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : The following 1 profile is active: "incidencias"
+incidencias-1     | 2026-10-09T18:13:05.114Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+notificaciones-1  | 2026-10-09T18:13:07.368Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+incidencias-1     | 2026-10-09T18:13:05.133Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+incidencias-1     | 2026-10-09T18:13:05.133Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+notificaciones-1  | 2026-10-09T18:13:07.384Z  INFO 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [rabbitmq:5672]
+auditoria-1       | 2026-10-09T18:13:04.929Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+auditoria-1       | 2026-10-09T18:13:04.930Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+notificaciones-1  | 2026-10-09T18:13:07.536Z  INFO 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7841bd30:0/SimpleConnection@5cd8d029 [delegate=amqp://ev2@172.18.0.3:5672/, localPort=59718]
+notificaciones-1  | 2026-10-09T18:13:07.697Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Started Application in 5.473 seconds (process running for 5.909)
+notificaciones-1  | 2026-10-09T18:13:43.469Z  INFO 1 --- [ntContainer#0-1] c.d.e.i.NotificationConsumer             : CONSUMED consumer=notificaciones eventoId=e37f0c8f-b839-4b05-929f-b786c208f832 incidenciaId=2ace92e5-3a9e-4a5d-8055-1a2598d3102a
+notificaciones-1  | 2026-10-09T18:14:45.123Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+notificaciones-1  | 2026-10-09T18:14:45.123Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+notificaciones-1  | 2026-10-09T18:14:45.124Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+incidencias-1     | 2026-10-09T18:13:05.184Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+incidencias-1     | 2026-10-09T18:13:05.186Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1603 ms
+incidencias-1     | 2026-10-09T18:13:05.593Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+incidencias-1     | 2026-10-09T18:13:06.192Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/helpdesk user=SA
+incidencias-1     | 2026-10-09T18:13:06.198Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+incidencias-1     | 2026-10-09T18:13:08.178Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+incidencias-1     | 2026-10-09T18:13:08.200Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Started Application in 5.41 seconds (process running for 5.98)
+incidencias-1     | 2026-10-09T18:13:42.990Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+incidencias-1     | 2026-10-09T18:13:42.990Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+incidencias-1     | 2026-10-09T18:13:42.991Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+incidencias-1     | 2026-10-09T18:13:43.277Z  INFO 1 --- [nio-8080-exec-1] c.duoc.ev2.application.IncidentService   : SYNC categoria=1 validada por HTTP
+incidencias-1     | 2026-10-09T18:13:43.317Z  INFO 1 --- [nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [rabbitmq:5672]
+incidencias-1     | 2026-10-09T18:13:43.364Z  INFO 1 --- [nio-8080-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#8c12524:0/SimpleConnection@5cd2726 [delegate=amqp://ev2@172.18.0.3:5672/, localPort=34398]
+incidencias-1     | 2026-10-09T18:13:43.399Z  INFO 1 --- [nio-8080-exec-1] c.duoc.ev2.application.IncidentService   : PUBLISHED eventoId=e37f0c8f-b839-4b05-929f-b786c208f832 incidenciaId=2ace92e5-3a9e-4a5d-8055-1a2598d3102a exchange=incidencias.exchange routing=incidencia.creada
+auditoria-1       | 2026-10-09T18:13:04.979Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+auditoria-1       | 2026-10-09T18:13:04.981Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1654 ms
+auditoria-1       | 2026-10-09T18:13:05.194Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+auditoria-1       | 2026-10-09T18:13:05.789Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/helpdesk user=SA
+auditoria-1       | 2026-10-09T18:13:05.796Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+auditoria-1       | 2026-10-09T18:13:07.809Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+auditoria-1       | 2026-10-09T18:13:07.815Z  INFO 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [rabbitmq:5672]
+auditoria-1       | 2026-10-09T18:13:07.901Z  INFO 1 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#45c80312:0/SimpleConnection@32a8ca06 [delegate=amqp://ev2@172.18.0.3:5672/, localPort=49552]
+auditoria-1       | 2026-10-09T18:13:08.020Z  INFO 1 --- [           main] cl.duoc.ev2.Application                  : Started Application in 5.479 seconds (process running for 6.018)
+auditoria-1       | 2026-10-09T18:13:43.471Z  INFO 1 --- [ntContainer#0-1] c.duoc.ev2.infrastructure.AuditConsumer  : CONSUMED consumer=auditoria eventoId=e37f0c8f-b839-4b05-929f-b786c208f832 incidenciaId=2ace92e5-3a9e-4a5d-8055-1a2598d3102a
+auditoria-1       | 2026-10-09T18:14:42.977Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+auditoria-1       | 2026-10-09T18:14:42.978Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+auditoria-1       | 2026-10-09T18:14:42.979Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

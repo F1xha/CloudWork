@@ -1,0 +1,7 @@
+pom.xml: XML bien formado
+compose.yml: YAML válido y cinco servicios declarados
+application.yml: YAML válido
+workflow: YAML válido
+verify.py: sintaxis Python válida
+build_report.py: sintaxis Python válida
+NO EJECUTADO: compilación Java, unit tests, integración AMQP y capturas de Management

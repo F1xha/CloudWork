@@ -1,0 +1,56 @@
+services:
+  rabbitmq:
+    image: rabbitmq:4.1.4-management
+    environment:
+      RABBITMQ_DEFAULT_USER: ev2
+      RABBITMQ_DEFAULT_PASS: ev2-local-demo
+    ports: ["127.0.0.1:5672:5672", "127.0.0.1:15672:15672"]
+    volumes: ["rabbit-data:/var/lib/rabbitmq"]
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  categorias:
+    build: .
+    image: cloudwork-ev2:local
+    environment:
+      SPRING_PROFILES_ACTIVE: categorias
+    ports: ["127.0.0.1:8082:8080"]
+  incidencias:
+    image: cloudwork-ev2:local
+    build: .
+    environment:
+      SPRING_PROFILES_ACTIVE: incidencias
+      RABBIT_HOST: rabbitmq
+      CATEGORIES_URL: http://categorias:8080
+    ports: ["127.0.0.1:8081:8080"]
+    volumes: ["incidencias-data:/app/data"]
+    depends_on:
+      rabbitmq: {condition: service_healthy}
+      categorias: {condition: service_started}
+  auditoria:
+    image: cloudwork-ev2:local
+    build: .
+    environment:
+      SPRING_PROFILES_ACTIVE: auditoria
+      RABBIT_HOST: rabbitmq
+    ports: ["127.0.0.1:8083:8080"]
+    volumes: ["auditoria-data:/app/data"]
+    depends_on:
+      rabbitmq: {condition: service_healthy}
+  notificaciones:
+    image: cloudwork-ev2:local
+    build: .
+    environment:
+      SPRING_PROFILES_ACTIVE: notificaciones
+      RABBIT_HOST: rabbitmq
+    ports: ["127.0.0.1:8084:8080"]
+    volumes: ["notificaciones-data:/app/data"]
+    depends_on:
+      rabbitmq: {condition: service_healthy}
+volumes:
+  rabbit-data:
+  incidencias-data:
+  auditoria-data:
+  notificaciones-data:
